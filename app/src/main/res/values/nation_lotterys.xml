@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="nation_lotteries">
+        <item>双色球</item>
+        <item>超级大乐透</item>
+        <item>福彩3D</item>
+        <item>排列3</item>
+        <item>排列5</item>
+        <item>七乐彩</item>
+        <item>七星彩</item>
+        <item>胜负彩</item>
+        <item>竞彩足球</item>
+        <item>任选九场</item>
+    </array>
+    <array name="nation_lotteries_url">
+        <item>ssq-14.json</item>
+        <item>dlt-14.json</item>
+        <item>fc3d-14.json</item>
+        <item>pl3-14.json</item>
+        <item>pl5-14.json</item>
+        <item>qlc-14.json</item>
+        <item>qxc-14.json</item>
+        <item>zcbqc-14.json</item>
+        <item>zcjqc-14.json</item>
+        <item>zcsfc-14.json</item>
+    </array>
+    <array name="nation_hf_lotteries">
+        <item>安徽11选5</item>
+        <item>安徽快三</item>
+        <item>北京11选5</item>
+        <item>北京快三</item>
+        <item>福建11选5</item>
+        <item>福建快三</item>
+        <item>广东11选5</item>
+        <item>甘肃11选5</item>
+        <item>甘肃快三</item>
+        <item>广西11选5</item>
+        <item>广西快三</item>
+        <item>贵州11选5</item>
+        <item>贵州快三</item>
+        <item>河北11选5</item>
+        <item>河北快三</item>
+        <item>黑龙江11选5</item>
+        <item>湖北11选5</item>
+        <item>湖北快三</item>
+    </array>
+    <array name="nation_hf_lotteries_url">
+        <item>AH11X5-14.json</item>
+        <item>AHK3-14.json</item>
+        <item>BJ11X5-14.json</item>
+        <item>BJK3-14.json</item>
+        <item>FJ11X5-14.json</item>
+        <item>FJK3-14.json</item>
+        <item>GD11X5-14.json</item>
+        <item>GS11X5-14.json</item>
+        <item>GSK3-14.json</item>
+        <item>GX11X5-14.json</item>
+        <item>GXK3-14.json</item>
+        <item>GZ11X5-14.json</item>
+        <item>GZK3-14.json</item>
+        <item>HEB11X5-14.json</item>
+        <item>HEBK3-14.json</item>
+        <item>HLJ11X5-14.json</item>
+        <item>HUB11X5-14.json</item>
+        <item>HUBK3-14.json</item>
+    </array>
+    <array name="nation_lf_lotteries">
+        <item>安徽福彩25选5</item>
+        <item>福建体彩22选5</item>
+        <item>福建体彩36选7</item>
+        <item>广东南粤风采26选5</item>
+        <item>广东南粤风采36选7</item>
+        <item>广东深圳风采</item>
+        <item>广西快乐双彩</item>
+        <item>七省华东15选5</item>
+        <item>黑龙江龙江风彩22选5</item>
+        <item>黑龙江体彩6+1</item>
+    </array>
+    <array name="nation_lf_lotteries_url">
+        <item>AHFC25X5-14.json</item>
+        <item>FJTC22X5-14.json</item>
+        <item>FJTC36X7-14.json</item>
+        <item>GDFC26X5-14.json</item>
+        <item>GDFC36X5-14.json</item>
+        <item>GDSZFC-14.json</item>
+        <item>GXKLSC-14.json</item>
+        <item>HD15X5-14.json</item>
+        <item>HLJFC22X5-14.json</item>
+        <item>HLJTC6J1-14.json</item>
+
+
+    </array>
+</resources>

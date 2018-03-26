@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">彩六分分彩</string>
+    <string name="nation_lottery">全国彩</string>
+    <string name="nation_hf_lottery">时时彩</string>
+    <string name="nation_lf_lottery">地方彩</string>
+    <string name="get_data_filed">内容获取失败！请检查网络！</string>
+    <string name="exit_notice">再按一次退出应用</string>
+</resources>

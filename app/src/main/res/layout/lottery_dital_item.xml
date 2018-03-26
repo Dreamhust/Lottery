@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_item_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="期数："
+            android:layout_marginStart="10dp"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorHalfTransparent_purple"
+            android:id="@+id/openExpect1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20180507"
+            android:textColor="@color/colorHalfTransparent_purple"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:id="@+id/openExpect"
+            android:layout_toEndOf="@+id/openExpect1"/>
+        <TextView
+            android:id="@+id/open_time_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开奖时时间："
+            android:textColor="@color/colorHalfTransparent_purple"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/open_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018-03-15"
+            android:textStyle="bold"
+            android:textColor="@color/colorHalfTransparent_purple"
+            android:textAllCaps="true"
+            android:textSize="13sp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/open_time_1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lottery_openResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start|center"
+        android:orientation="horizontal">
+    </LinearLayout>
+</RelativeLayout>

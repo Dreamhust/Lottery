@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_item_bg">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lottery_name"
+        android:textAllCaps="true"
+        android:text="双色球"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorHalfTransparent_purple"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lottery_new_open_time"
+        android:textAllCaps="true"
+        android:text="20180315"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorHalfTransparent_purple"
+        android:gravity="end|bottom"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/lottery_name"
+        android:layout_toEndOf="@+id/lottery_new_open_expect" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lottery_new_open_expect"
+        android:textAllCaps="true"
+        android:textSize="13sp"
+        android:text="11111111111"
+        android:textStyle="bold"
+        android:textColor="@color/colorHalfTransparent_purple"
+        android:gravity="end|bottom"
+        android:layout_alignBottom="@+id/lottery_name"
+        android:layout_toEndOf="@+id/lottery_name"
+        />
+    <LinearLayout
+        android:id="@+id/lottery_new_open_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lottery_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="start|center"
+        android:orientation="horizontal">
+    </LinearLayout>
+</RelativeLayout>
